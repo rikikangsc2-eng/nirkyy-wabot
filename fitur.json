@@ -1,0 +1,111 @@
+{
+  "bot": {
+    "title": "BOT",
+    "commands": [
+      "profile", "claim", "buy [item] (nominal)", "transfer", "leaderboard",
+      "request (text)", "react (emoji)", "tagme", "runtime", "totalfitur",
+      "speed", "info", "hit", "ping", "afk", "rvo (reply pesan viewone)",
+      "inspect (url gc)", "addmsg", "delmsg", "getmsg", "listmsg",
+      "q (reply pesan)", "menfes (62xxx|fake name)", "confes (62xxx|fake name)",
+      "roomai", "sewa"
+    ]
+  },
+  "group": {
+    "title": "GROUP",
+    "commands": [
+      "add (62xxx)", "kick (@tag/62xxx)", "promote (@tag/62xxx)", "demote (@tag/62xxx)",
+      "warn (@tag/62xxx)", "setname (nama baru gc)", "setdesc (desk)", "setppgc (reply imgnya)",
+      "delete (reply pesan)", "linkgrup", "revoke", "tagall", "pin", "unpin", "hidetag",
+      "totag (reply pesan)", "listonline", "group set", "group (khusus admin)"
+    ]
+  },
+  "search": {
+    "title": "SEARCH",
+    "commands": [
+     "ytsearch (query)", "spotify (query)", "pixiv (query)", "pinterest (query)",
+      "wallpaper (query)", "ringtone (query)", "google (query)", "gimage (query)",
+      "npm (query)", "style (query)", "cuaca (kota)", "tenor (query)", "urban (query)", "animesearch (query)", "animes (Query)", "animsearch (query)"
+    ]
+  },
+  "download": {
+    "title": "DOWNLOAD",
+    "commands": [
+      "ytmp3 (url)", "ytmp4 (url)", "instagram (url)", "tiktok (url)", "tiktokmp3 (url)",
+      "facebook (url)", "spotifydl (url)", "mediafire (url)"
+    ]
+  },
+  "quotes": {
+    "title": "QUOTES",
+    "commands": [
+      "motivasi", "quotes", "truth", "bijak", "dare", "bucin", "renungan"
+    ]
+  },
+  "tools": {
+    "title": "TOOLS",
+    "commands": [
+      "get (url) 🔸️", "hd (reply pesan)", "toaudio (reply pesan)", "tomp3 (reply pesan)",
+      "tovn (reply pesan)", "toimage (reply pesan)", "toptv (reply pesan)", "tourl (reply pesan)",
+      "tts (textnya)", "toqr (textnya)", "brat (textnya)", "bratvid (textnya)", "ssweb (url) 🔸️",
+      "sticker (send/reply img)", "colong (reply stiker)", "smeme (send/reply img)",
+      "dehaze (send/reply img)", "colorize (send/reply img)", "hitamkan (send/reply img)",
+      "emojimix 🙃+💀", "nulis", "readmore text1|text2", "qc (pesannya)", "translate",
+      "wasted (send/reply img)", "triggered (send/reply img)", "shorturl (urlnya)",
+      "gitclone (urlnya)", "fat (reply audio)", "fast (reply audio)", "bass (reply audio)",
+      "slow (reply audio)", "tupai (reply audio)", "deep (reply audio)", "robot (reply audio)",
+      "blown (reply audio)", "reverse (reply audio)", "smooth (reply audio)",
+      "earrape (reply audio)", "nightcore (reply audio)", "getexif (reply sticker)"
+    ]
+  },
+  "ai": {
+    "title": "AI",
+    "commands": [
+      "ai (query)", "simi (query)", "gemini (query)", "txt2img (query)"
+    ]
+  },
+  "anime": {
+    "title": "ANIME",
+    "commands": [
+      "waifu", "neko"
+    ]
+  },
+  "game": {
+    "title": "GAME",
+    "commands": [
+      "ttt-ai (sulit/mudah)","tictactoe", "akinator", "suit", "slot", "math (level)", "begal", "casino (nominal)",
+      "samgong (nominal)", "rampok (@tag)", "tekateki", "tebaklirik", "tebakkata", "tebakbom",
+      "susunkata", "colorblind", "tebakkimia", "caklontong", "tebakangka", "tebaknegara",
+      "tebakgambar", "tebakbendera"
+    ]
+  },
+  "fun": {
+    "title": "FUN",
+    "commands": [
+      "dadu", "bisakah (text)", "apakah (text)", "kapan (text)", "siapa (text)",
+      "kerangajaib (text)", "cekmati (nama lu)", "ceksifat", "cekkhodam (nama lu)",
+      "rate (reply pesan)", "jodohku", "jadian", "fitnah", "halah (text)", "hilih (text)",
+      "huluh (text)", "heleh (text)", "holoh (text)"
+    ]
+  },
+  "random": {
+    "title": "RANDOM",
+    "commands": [
+      "coffe"
+    ]
+  },
+  "stalker": {
+    "title": "STALKER",
+    "commands": [
+      "wastalk", "telestalk", "igstalk", "tiktokstalk", "githubstalk", "genshinstalk"
+    ]
+  },
+  "owner": {
+    "title": "OWNER",
+    "commands": [
+      "bot [set]", "setbio", "setppbot", "join", "leave", "block", "listblock",
+      "openblock", "listpc", "listgc", "ban", "unban", "mute", "unmute", "creategc",
+      "clearchat", "addprem", "delprem", "listprem", "addlimit", "adduang",
+      "getmsgstore", "bot --settings", "bot settings", "getsession", "delsession",
+      "delsampah", "upsw", "backup", "$", ">", "<"
+    ]
+  }
+}
