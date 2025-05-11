@@ -30,7 +30,7 @@ Ikuti langkah-langkah mudah ini untuk menginstal Nirkyy Wabot:
     Buka terminal atau command prompt Anda dan jalankan perintah berikut:
 
     ```bash
-    git clone [https://github.com/rikikangsc2-eng/nirkyy-wabot](https://github.com/rikikangsc2-eng/nirkyy-wabot)
+    git clone https://github.com/rikikangsc2-eng/nirkyy-wabot
     ```
 
 2.  **Masuk ke dalam direktori proyek:**
