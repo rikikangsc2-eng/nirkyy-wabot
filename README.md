@@ -1,96 +1,69 @@
-## Information
+# Nirkyy Wabot ✨
 
-<div align="center">
-<a href="https://github.com/nazedev/hitori/watchers"><img title="Watchers" src="https://img.shields.io/github/watchers/nazedev/hitori?label=Watchers&color=green&style=flat-square"></a>
-<a href="https://github.com/nazedev/hitori/network/members"><img title="Forks" src="https://img.shields.io/github/forks/nazedev/hitori?label=Forks&color=blue&style=flat-square"></a>
-<a href="https://github.com/nazedev/hitori/stargazers"><img title="Stars" src="https://img.shields.io/github/stars/nazedev/hitori?label=Stars&color=yellow&style=flat-square"></a>
-<a href="https://github.com/nazedev/hitori/issues"><img title="Issues" src="https://img.shields.io/github/issues/nazedev/hitori?label=Issues&color=success&style=flat-square"></a>
-<a href="https://github.com/nazedev/hitori/issues?q=is%3Aissue+is%3Aclosed"><img title="Issues" src="https://img.shields.io/github/issues-closed/nazedev/hitori?label=Issues&color=red&style=flat-square"></a>
-<a href="https://github.com/nazedev/hitori/pulls"><img title="Pull Request" src="https://img.shields.io/github/issues-pr/nazedev/hitori?label=PullRequest&color=success&style=flat-square"></a>
-<a href="https://github.com/nazedev/hitori/pulls?q=is%3Apr+is%3Aclosed"><img title="Pull Request" src="https://img.shields.io/github/issues-pr-closed/nazedev/hitori?label=PullRequest&color=red&style=flat-square"></a>
-</div>
+Selamat datang di repositori Nirkyy Wabot! 👋
 
-This script is created by [Nazedev](https://github.com/nazedev) using Node.js and the [WhiskeySocket/Baileys](https://github.com/WhiskeySockets/Baileys) library. The script is currently in the development phase (BETA), so there may still be some errors that can be ignored. If errors persist even after debugging, please contact the owner for assistance. ~ By Naze
+Nirkyy Wabot adalah bot WhatsApp multifungsi yang siap membantu Anda dengan berbagai perintah seru dan bermanfaat. Proyek ini dikembangkan dengan semangat open source, dan **penting untuk dicatat** bahwa Nirkyy Wabot adalah hasil recode dari source code asli **hitori** oleh **nazedev**.
 
-## Contributor
+Kami mengucapkan terima kasih yang sebesar-besarnya kepada nazedev atas source code original yang menjadi dasar pengembangan Nirkyy Wabot ini.
 
-- [NazeDev](https://github.com/nazedev) (Pembuat)
-- [Zaynn](https://github.com/ZaynRcK) (Penyedia Layanan API)
-- [Dani](https://github.com/nazedev) (Penyumbang Code)
+## Kredit ✨
 
-#### Join Group
-[![Grup WhatsApp](https://img.shields.io/badge/WhatsApp%20Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/Hx9vcBVhbc04KLVGPFtH2R) 
+Seperti yang disebutkan di atas, Nirkyy Wabot adalah hasil recode dari source code asli **hitori** oleh **nazedev**.
 
----
-#### Deploy to Heroku
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/nazedev/hitori)
+Anda bisa menemukan source code asli **hitori** di sini:
+[https://github.com/nazedev/hitori](https://github.com/nazedev/hitori)
 
-#### Heroku Buildpack
-| Build Pack | LINK |
-|--------|--------|
-| **NODEJS** | heroku/nodejs |
-| **FFMPEG** | [here](https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest) |
-| **WEBP** | [here](https://github.com/clhuang/heroku-buildpack-webp-binaries.git) |
-| **IMAGEMAGICK** | [here](https://github.com/DuckyTeam/heroku-buildpack-imagemagick) |
+Dukungan dan apresiasi kami sampaikan kepada nazedev atas kontribusinya yang luar biasa! 🙏
 
----
-## For Windows/VPS/RDP User
-* Download And Install Git [`Click Here`](https://git-scm.com/downloads)
-* Download And Install NodeJS [`Click Here`](https://nodejs.org/en/download)
-* Download And Install FFmpeg [`Click Here`](https://ffmpeg.org/download.html) (**Don't Forget Add FFmpeg to PATH enviroment variables**)
-* Download And Install ImageMagick [`Click Here`](https://imagemagick.org/script/download.php)
+## Prasyarat 🛠️
 
-```bash
-git clone https://github.com/nazedev/hitori
-cd hitori
-npm install
-npm update
-```
----
-## For Termux/Ubuntu/SSH User
-```bash
-pkg update && pkg upgrade
-pkg install git
-pkg install nodejs
-pkg install ffmpeg
-pkg install imagemagick
-git clone https://github.com/nazedev/hitori
-cd hitori
-npm install
-```
+Sebelum menjalankan Nirkyy Wabot, pastikan Anda sudah menginstal beberapa hal berikut di sistem Anda:
 
-[ RECOMMENDED INSTALL ON TERMUX ]
-```bash
-pkg install yarn
-yarn
-```
+* **Node.js:** Disarankan menggunakan versi terbaru atau versi LTS (Long Term Support). Anda bisa mengunduhnya di [nodejs.org](https://nodejs.org/).
+* **npm:** Biasanya sudah terinstal bersama Node.js.
 
----
+## Instalasi 🚀
 
-## Run
-```bash
-node .
-```
----
+Ikuti langkah-langkah mudah ini untuk menginstal Nirkyy Wabot:
 
-### Connection Options
-- Support Qr Code
-- Support Pairing Code
----
+1.  **Clone repository ini:**
+    Buka terminal atau command prompt Anda dan jalankan perintah berikut:
 
-### Features
-| Menu     | Bot | Group | Search | Download | Tools | Ai | Game | Fun | Owner |
-| -------- | --- | ----- | ------ | -------- | ----- | -- | ---- | --- | ----- |
-| Work     |  ✅  |   ✅   |    ✅    |     ✅     |   ✅   | ✅ |   ✅   |  ✅  |    ✅    |
+    ```bash
+    git clone [https://github.com/rikikangsc2-eng/nirkyy-wabot](https://github.com/rikikangsc2-eng/nirkyy-wabot)
+    ```
 
+2.  **Masuk ke dalam direktori proyek:**
 
-License: [MIT](https://choosealicense.com/licenses/mit/)
+    ```bash
+    cd nirkyy-wabot
+    ```
 
-#### Support Me
-- [Saweria](https://saweria.co/naze)
+3.  **Instal semua dependensi yang diperlukan:**
+    Jalankan perintah ini untuk menginstal semua paket Node.js yang dibutuhkan:
 
-## Thanks to
+    ```bash
+    npm install
+    ```
 
-| [![Nazedev](https://github.com/nazedev.png?size=100)](https://github.com/nazedev) | [![Zaynn](https://github.com/ZaynRcK.png?size=100)](https://github.com/ZaynRcK) | [![Dani](https://github.com/nazedev.png?size=100)](https://github.com/nazedev) | [![WhiskeySockets](https://github.com/WhiskeySockets.png?size=100)](https://github.com/WhiskeySockets) |
-| --- | --- | --- | --- |
-| [NazeDev](https://github.com/nazedev) | [Zaynn](https://github.com/ZaynRcK) | [Dani](https://github.com/dani) | [WhiskeySockets](https://github.com/WhiskeySockets) |
+## Cara Menjalankan Bot ▶️
+
+Setelah semua dependensi terinstal, Anda siap menjalankan Nirkyy Wabot!
+
+Ada dua opsi untuk menjalankan bot, disarankan menggunakan `index2.js`:
+
+1.  **Disarankan (menggunakan `index2.js`):**
+
+    ```bash
+    node index2.js
+    ```
+
+2.  **Opsi Lain (menggunakan `index.js`):**
+
+    ```bash
+    node index.js
+    ```
+
+Setelah menjalankan salah satu perintah di atas, bot akan memulai proses inisialisasi. Anda akan melihat QR Code di terminal atau melalui link yang disediakan. Scan QR Code tersebut menggunakan aplikasi WhatsApp di ponsel Anda (biasanya di menu "Perangkat Tertaut" atau "Linked Devices") untuk menautkan akun WhatsApp Anda dengan bot.
+
+Selamat mencoba Nirkyy Wabot! Jika Anda memiliki pertanyaan atau menemukan masalah, jangan ragu untuk membuka *issue* di repositori ini.
