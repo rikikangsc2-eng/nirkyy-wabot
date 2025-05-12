@@ -1887,7 +1887,7 @@ m.reply(formattedMessage);
 						m.reply(mess.wait)
 						let media = await quoted.download()
 						let anu = await uploadToAceImg(media)
-						m.reply('Url : ' + anu.url)
+						m.reply('Url : ' + anu)
 					} else m.reply('Send Media yg ingin di Upload!')
 				} catch (e) {
 					m.reply('Server Uploader sedang offline!')
