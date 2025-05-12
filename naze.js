@@ -44,7 +44,7 @@ const menfesTimeouts = new Map();
 const prem = require('./src/premium');
 const { antiSpam } = require('./src/antispam');
 const templateMenu = require('./lib/template_menu');
-const { TelegraPh, UguuSe } = require('./lib/uploader');
+const { TelegraPh, UguuSe, aceImg } = require('./lib/uploader');
 const { toAudio, toPTT, toVideo } = require('./lib/converter');
 const { cmd_add, cmd_del, cmd_addhit } = require('./src/hit');
 const { GroupUpdate, LoadDataBase } = require('./src/message');
@@ -1886,7 +1886,7 @@ m.reply(formattedMessage);
 					if (/webp|video|sticker|audio|jpg|jpeg|png/.test(mime)) {
 						m.reply(mess.wait)
 						let media = await quoted.download()
-						let anu = await UguuSe(media)
+						let anu = await aceImg(media)
 						m.reply('Url : ' + anu.url)
 					} else m.reply('Send Media yg ingin di Upload!')
 				} catch (e) {
