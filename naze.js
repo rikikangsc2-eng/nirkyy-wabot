@@ -1883,15 +1883,17 @@ m.reply(formattedMessage);
 			break
 			case 'tourl': {
 				try {
-					if (/webp|video|sticker|audio|jpg|jpeg|png/.test(mime)) {
-						m.reply(mess.wait)
-						let media = await quoted.download()
-						let anu = await imgBB(media)
-						m.reply('Url : ' + anu.url)
-					} else m.reply('Send Media yg ingin di Upload!')
-				} catch (e) {
-					m.reply('Server Uploader sedang offline!')
-				}
+	if (/webp|video|sticker|audio|jpg|jpeg|png/.test(mime)) {
+		m.reply(mess.wait)
+		let media = await quoted.download()
+		let anu = await imgBB(media)
+		m.reply(`*No Expired✓*
+
+${anu}`)
+	} else m.reply('Send Media yg ingin di Upload!')
+} catch (e) {
+	m.reply('Server Uploader sedang offline!')
+}
 			}
 			break
 case 'texttospech':
