@@ -2292,7 +2292,7 @@ break;
 	if (!isLimit) return m.reply(mess.limit)
 	if (/image/.test(mime)) {
 		m.reply(mess.wait)
-		if (text) return m.reply('Apa yang mau di edit lah?')
+		if (!text) return m.reply('Apa yang mau di edit lah?')
 		let media = await quoted.download()
 		let urlmedia = await UguuSe(media)
 		try {
