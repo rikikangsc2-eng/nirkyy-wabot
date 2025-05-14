@@ -59,7 +59,7 @@
   "ai": {
     "title": "AI",
     "commands": [
-      "ai (query)", "simi (query)", "gemini (query)", "txt2img (query)"
+      "ai (query)", "simi (query)", "gemini (query)", "txt2img (query)","imgedit"
     ]
   },
   "anime": {

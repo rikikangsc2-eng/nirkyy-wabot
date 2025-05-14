@@ -2287,7 +2287,32 @@ break;
 				}
 			}
 			break
-			case 'bard': case 'gemini': case 'aiedit': {
+			case 'imgedit':
+			case 'aiedit': {
+	if (!isLimit) return m.reply(mess.limit)
+	if (/image/.test(mime)) {
+		m.reply(mess.wait)
+		if (text) return m.reply('Apa yang mau di edit lah?')
+		let media = await quoted.download()
+		let urlmedia = await UguuSe(media)
+		try {
+			const response = await axios.get('https://nirkyy.koyeb.app/api/v1/editimage', {
+				params: {
+					"prompt": text,
+					"url": urlmedia.url
+				},
+				responseType: 'arraybuffer'
+			});
+			await m.reply({ image: Buffer.from(response.data, 'binary'), caption: 'Done' });
+			setLimit(m, db);
+		} catch (error) {
+			console.error('Error fetching data:', error);
+			m.reply('Gagal memproses gambar.');
+		}
+	} else m.reply(`Kirim/Reply Gambar dengan format\nExample: ${prefix + command} remove all objects in the image`)
+} break;
+
+			case 'bard': case 'gemini':{
 				if (!isLimit) return m.reply(mess.limit)
 				if (!text) return m.reply(`Example: ${prefix + command} tanggal berapa sekarang?`)
 				if (!(APIKeys.geminiApikey?.length > 0 && APIKeys.geminiApikey?.some(a => a.trim() !== ''))) return m.reply('Silahkan Ambil Apikey Terlebih dahulu di\nhttps://aistudio.google.com/app/apikey')
