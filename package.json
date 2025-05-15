@@ -25,13 +25,14 @@
     "node": ">=20.0.0"
   },
   "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.16",
     "@google/generative-ai": "^0.24.0",
     "@hapi/boom": "^10.0.0",
     "@ibaraki-douji/pixivts": "^2.4.1",
     "aki-api": "npm:@aqul/akinator-api@1.0.1",
     "awesome-phonenumber": "^4.4.0",
     "axios": "^0.24.0",
-    "baileys": "latest",
+    "baileys": "github:WhiskeySockets/Baileys#b5316165ace42878e139a8dba9be3124a5a320d2",
     "chalk": "^4.1.2",
     "cheerio": "^1.0.0-rc.10",
     "child_process": "^1.0.2",
