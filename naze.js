@@ -2306,8 +2306,7 @@ break;
 			await m.reply({ image: Buffer.from(response.data, 'binary'), caption: 'Done' });
 			setLimit(m, db);
 		} catch (error) {
-			console.error('Error fetching data:', error);
-			m.reply('Gagal memproses gambar.');
+			m.reply('Error: Coba lagi nanti Ya kak, mungkin server lagi berat');
 		}
 	} else m.reply(`Kirim/Reply Gambar dengan format\nExample: ${prefix + command} remove all objects in the image`)
 } break;
