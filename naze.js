@@ -3121,9 +3121,9 @@ break;
 
     if (db.game) {
       delete db.game;
-      m.reply("Data game berhasil di hapus")
+      console.log('Objek "game" berhasil dihapus.');
     } else {
-      m.reply("Tidak ada game Yang sedang di mainkan!")
+      console.log('Objek "game" tidak ditemukan.');
     }
 
     fs.writeFileSync(dbPath, JSON.stringify(db, null, 2), 'utf8');
