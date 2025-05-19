@@ -71,7 +71,7 @@
   "game": {
     "title": "GAME",
     "commands": [
-      "ttt-ai (sulit/mudah)","tictactoe", "akinator", "suit", "slot", "math (level)", "begal", "casino (nominal)",
+     "resetgame","ttt-ai (sulit/mudah)","tictactoe", "akinator", "suit", "slot", "math (level)", "begal", "casino (nominal)",
       "samgong (nominal)", "rampok (@tag)", "tekateki", "tebaklirik", "tebakkata", "tebakbom",
       "susunkata", "colorblind", "tebakkimia", "caklontong", "tebakangka", "tebaknegara",
       "tebakgambar", "tebakbendera"

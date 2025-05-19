@@ -3112,6 +3112,27 @@ break;
 			break
 			
 			// Game Menu
+			case 'resetgame': {
+				const dbPath = path.join(__dirname, 'database', 'database.json');
+
+  try {
+    const data = fs.readFileSync(dbPath, 'utf8');
+    const db = JSON.parse(data);
+
+    if (db.game) {
+      delete db.game;
+      console.log('Objek "game" berhasil dihapus.');
+    } else {
+      console.log('Objek "game" tidak ditemukan.');
+    }
+
+    fs.writeFileSync(dbPath, JSON.stringify(db, null, 2), 'utf8');
+    console.log('database.json berhasil diperbarui.');
+
+  } catch (err) {
+    console.error('Terjadi kesalahan saat mereset game:', err);
+  }
+			}break;
 			case 'slot': {
 				await gameSlot(naze, m, db)
 			}
