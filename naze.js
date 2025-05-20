@@ -684,8 +684,10 @@ if (m.text && !m.sender.includes(global.number_bot) && !m.text.startsWith('.') &
     balasanEai = await fetchAiResponse(m.text, m.sender);
   }
 
-  if (balasanEai) {
+  if (balasanEai && m.quoted) {
     m.reply("> ai-reply\n" + balasanEai);
+  } else if (balasanEai) {
+  	m.reply(balasanEai);
   }
 }
 const API_BASE_URL = 'https://nirkyy.koyeb.app/api/v1/tictactoe';
