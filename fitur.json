@@ -43,7 +43,7 @@
   "tools": {
     "title": "TOOLS",
     "commands": [
-      "get (url) 🔸️", "hd (reply pesan)", "toaudio (reply pesan)", "tomp3 (reply pesan)",
+      "bratnime","get (url) 🔸️", "hd (reply pesan)", "toaudio (reply pesan)", "tomp3 (reply pesan)",
       "tovn (reply pesan)", "toimage (reply pesan)", "toptv (reply pesan)", "tourl (reply pesan)",
       "tts (textnya)", "toqr (textnya)", "brat (textnya)", "bratvid (textnya)", "ssweb (url) 🔸️",
       "sticker (send/reply img)", "colong (reply stiker)", "smeme (send/reply img)",

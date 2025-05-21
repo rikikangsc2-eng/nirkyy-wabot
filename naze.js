@@ -2103,6 +2103,19 @@ case 'bill': {
 				}
 			}
 			break
+			case 'bratnime': {
+
+				if (!isLimit) return m.reply(mess.limit)
+
+				if (!text && (!m.quoted || !m.quoted.text)) return m.reply(`Kirim/reply pesan *${prefix + command}* Teksnya`)
+				try {
+					await naze.sendAsSticker(m.chat, 'https://nirkyy.koyeb.app/api/v1/bratnime?text=' + encodeURIComponent(text || m.quoted.text), m)
+					setLimit(m, db)
+				} catch (e) {
+					m.reply("Owh noo elorr")
+				}
+			}
+			break
 			case 'brat': {
 				if (!isLimit) return m.reply(mess.limit)
 				if (!text && (!m.quoted || !m.quoted.text)) return m.reply(`Kirim/reply pesan *${prefix + command}* Teksnya`)
